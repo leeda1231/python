@@ -1,6 +1,6 @@
 **목차**
 
-- join(#join)
+- [join](#join)
 
 
 
