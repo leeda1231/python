@@ -3,6 +3,7 @@
 - [join](#join)
 - [특수문자 출력](#특수문자-출력)
 - [sys.stdin.readline](#sysstdinreadline)
+- [반올림](#반올림)
 
 
 
@@ -70,3 +71,22 @@ sys.stdin.readline().rstrip()
 [참고]
 
 https://yeomss.tistory.com/120
+
+
+
+
+
+# 반올림
+
+- round 함수
+
+```python
+print(round(result,3)) # 40.0
+```
+
+- % 서식 문자
+
+```python
+print("%0.3f"%result) # 40.000
+```
+
