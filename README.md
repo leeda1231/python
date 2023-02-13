@@ -2,7 +2,7 @@
 
 - [join](#join)
 - [특수문자 출력](#특수문자-출력)
-- [sys.stdin.readline](#sys.stdin.readline)
+- [sys.stdin.readline](#sysstdinreadline)
 
 
 
