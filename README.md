@@ -1,6 +1,8 @@
 **목차**
 
 - [join](#join)
+- [isdigit](#isdigit)
+- [replace](#replace)
 - [특수문자 출력](#특수문자-출력)
 - [sys.stdin.readline](#sysstdinreadline)
 - [반올림](#반올림)
@@ -26,6 +28,62 @@ A string must be specified as the separator.
 
 ```python
 print(''.join(map(str,num_list)))
+```
+
+
+
+
+
+# Isdigit
+
+**Definition and Usage**
+
+The `isdigit()` method returns True if all the characters are digits, otherwise False.
+
+**Example**
+
+```python
+txt = "50800"
+x = txt.isdigit()
+print(x)
+```
+
+```txt
+>> True
+```
+
+
+
+
+
+# Replace
+
+**Definition and Usage**
+
+The `replace()` method replaces a specified phrase with another specified phrase.
+
+**Example**
+
+```python
+txt = "I like bananas"
+x = txt.replace("bananas", "apples")
+print(x)
+```
+
+```txt
+>> I like apples
+```
+
+
+
+```python
+txt = "one one was a race horse, two two was one too."
+x = txt.replace("one", "three", 2)
+print(x)
+```
+
+```txt
+>> three three was a race horse, two two was one too.
 ```
 
 
